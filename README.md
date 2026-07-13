@@ -65,4 +65,7 @@ Are you more interested in filing requests than cleaning and analyzing data? You
 The pdf we received included 30 pages of titles and 30 pages of reasons for banning books and dates, but I only extracted the titles. I wasn't sure if the separate pages of reasons would line up in order to the titles. It'd be worth going back to the state and asking for the actual data, and not pdf in this case. - @DillonBergin 
 
 #### Texas
-There are two different types of rejection reasons and I'm unsure what the difference is, so I left them separate rather than combine them. 
+There are two different types of rejection reasons and I'm unsure what the difference is, so I left them separate rather than combine them. - @DillonBergin 
+
+### Michigan
+Used DocumentCloud's Azure table extractor to OCR and extract the tables first - @DillonBergin 
