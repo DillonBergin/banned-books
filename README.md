@@ -59,3 +59,7 @@ Are you more interested in filing requests than cleaning and analyzing data? You
 - Arizona
 - Wisconsin 
 
+## State-specific notes
+
+#### Kansas 
+The pdf we received included 30 pages of titles and 30 pages of reasons for banning books and dates, but I only extracted the titles. I wasn't sure if the seperate pages of reasons would line up in order to the titles. It'd be worth going back to the state and asking for the actual data, and not pdf in this case. - @DillonBergin 
