@@ -17,7 +17,7 @@ df <- readxl::read_xlsx(
 # Clean data -------------------------------------------------------------
 
 # variable names
-cleaned_df <- df |> select(title_author, date)
+cleaned_df <- df |> select(title_author, date, review_outcome)
 
 # separate authors from titles where possible
 cleaned_df <- cleaned_df |>
@@ -40,7 +40,7 @@ cleaned_df <- cleaned_df |>
   # remove last period from author string
   mutate(author = str_remove(author, pattern = "(?s).(?!.*.)")) |>
   # keep relevant variables
-  select(title, author, date)
+  select(title, author, date, review_outcome)
 
 # refactor variables
 cleaned_df <- cleaned_df |>
